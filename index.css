@@ -10,3 +10,69 @@
     background-color: hsl(0, 2%, 18%);
     justify-content: center;
 }
+.navbar ul{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    justify-content: space-around;
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+    font-size: 20px;
+}
+.navbar:hover{
+    background-color: rgb(34, 33, 33);
+}
+.navbar a:hover{
+    color: rgb(160, 157, 157);
+}
+.navbar a.special-word{
+    font-size: 30px;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px rgb(118, 119, 230);
+}
+.navbar a.b{
+    font-size: 20px;
+    text-shadow: 2px 2px 5px rgb(224, 76, 76);
+    font-weight: bold;
+}
+.navbar a.c{
+    font-size: 20px;
+    text-shadow: 2px 2px 5px rgb(49, 247, 0);
+    font-weight: bold;
+}
+.navbar a.d{
+    font-size: 20px;
+    text-shadow: 2px 2px 5px rgb(162, 0, 255);
+    font-weight: bold;
+}
+.navbar a.e{
+    font-size: 20px;
+    text-shadow: 2px 2px 5px rgb(170, 84, 3);
+    font-weight: bold;
+}
+.footer {
+    background-color: hsl(0, 2%, 18%);
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+}
+.footer p{
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-shadow: 2px 2px 5px rgb(223, 226, 40);
+}
+.footer:hover{
+    background-color: rgb(34, 33, 33);
+}
