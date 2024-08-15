@@ -93,6 +93,7 @@ body {
     color: black;
     display: flex;
     justify-content: center;
+    letter-spacing: 4px;
     text-shadow: 2px 2px 5px rgb(223, 226, 40);
 }
 .fade-in-text {
