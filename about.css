@@ -35,14 +35,14 @@ body {
     color: rgb(190, 18, 18);
 }
 .navbar a.special-word{
-    font-size: 30px;
+    font-size: 20px;
     font-weight: bold;
     text-shadow: 2px 2px 5px rgb(10, 10, 179);
     margin: 0 40px;
     color: rgb(54, 53, 53);
 }
 .navbar a.b{
-    font-size: 20px;
+    font-size: 30px;
     text-shadow: 2px 2px 5px rgb(224, 76, 76);
     font-weight: bold;
     margin: 0 40px;
