@@ -108,4 +108,18 @@ h3 {
     width: 30%;
     border-radius: 500px;
   }
+  .image-container2 {
+    display: block;
+    width:  1000px;
+    height: 1000px;
+  }
+  .Resume {
+    display: flex;
+    width: 30%;
+    margin: 0;
+    padding: 0;
+    margin-left: 100%;
+    position: relative;
+    bottom: 50%;
+  }
  
