@@ -78,10 +78,12 @@ body {
     text-shadow: 2px 2px 5px rgb(223, 226, 40);
 }
 .fade-in-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-25%, -150%);
     opacity: 0;
     letter-spacing: 3px;
-    padding: 0px;
-    margin: 0px;
     font-size: 19px;
     animation: fadeIn 5s forwards;
 }
@@ -95,17 +97,11 @@ h3 {
     color: black;
 }
 .image-container {
-    display: flex;   
-    align-items: last baseline;
-    height: 50vh;          
-    width: auto;
+    display: block;
+    padding: 100px;   
   }
   .James {
-    width: 15%;
+    width: 30%;
     border-radius: 500px;
   }
-  .text-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+ 
