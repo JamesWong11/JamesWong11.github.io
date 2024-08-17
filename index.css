@@ -106,6 +106,10 @@ body {
     font-size: 20px;
     animation: fadeIn 5s forwards;
 }
+.fade-in-image {
+    opacity: 0;
+    animation: fadeIn 5s forwards;
+}
 
 @keyframes fadeIn {
     to {
