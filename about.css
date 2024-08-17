@@ -79,11 +79,9 @@ body {
 }
 .fade-in-text {
     opacity: 0;
-    vertical-align: text-bottom;
-    text-align: center;
     letter-spacing: 3px;
-    padding: 20px;
-    margin: 60px;
+    padding: 0px;
+    margin: 0px;
     font-size: 19px;
     animation: fadeIn 5s forwards;
 }
@@ -96,12 +94,18 @@ body {
 h3 {
     color: black;
 }
-.James {
+.image-container {
+    display: flex;   
+    align-items: last baseline;
+    height: 50vh;          
+    width: auto;
+  }
+  .James {
     width: 15%;
-    height: 350px;
-    object-fit: cover;
-    border-radius: 600px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    border-radius: 500px;
+  }
+  .text-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
