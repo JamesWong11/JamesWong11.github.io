@@ -77,40 +77,88 @@ body {
     letter-spacing: 4px;
     text-shadow: 2px 2px 5px rgb(223, 226, 40);
 }
-.container {
-    position: relative;
+
+.container3 {
     width: 100%;
     height: 100vh;
-    
-}
-.bubbles {
-    position: relative;
+    background: #333;
     display: flex;
-    z-index: -100;
-
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
 }
-.bubbles span {
-    position: relative;
+.music-player {
+    background: #85cce2;
+    width: 400px;
+    padding: 25px 35px;
+    text-align: center;
+}
+nav {
+    display: flex;
+    justify-content: space-between; 
+    margin-bottom: 30px;
+}
+nav .circle {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    background: rgb(243, 243, 243);
+    color: rgb(0, 17, 255);
+    box-shadow: 0 5px 10px rgba(255,26,26,0.22)
+}
+.song-img {
+    width: 220px;
+    border-radius: 50%;
+    border: 8px solid #fff;
+    box-shadow: 0 10px 60px rgba(255,26,26,0.22)
+}
+.music-player h1{
+    font-size: 20px;
+    font-weight: 400;
+    color: #333;
+    margin-top: 20px;
+}
+.music-player p{
+    font-size: 14px;
+    color: #333;
+}
+#progress{
+    -webkit-appearance: none;
+    width: 100%;
+    height: 6px;
+    background: #0f1ef1;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 40px 0;
+}
+#progress::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    background: #0f1ef1;
     width: 30px;
     height: 30px;
-    background: #394142;
-    margin: 0 4px;
     border-radius: 50%;
-    box-shadow: 0 0 0 10px #39414244, 0 0 50px #394142, 0 0 100px #394142;
-    animation: animate 15s linear infinite;
-    animation-duration: calc(120s / var(--i));
+    border: 8px solid #fff;
+    box-shadow: 0 5px 5px rgba(255,26,26,0.22)
 }
-.bubbles span:nth-child(even) {
-    background: #2dbcff;
-    box-shadow: 0 0 0 10px #2dbcff44, 0 0 50px #2dbcff, 0 0 100px #2dbcff;
+.controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-@keyframes animate {
-    0%
-    { 
-       transform: translateY(100vh) scale(0);
-    }
-    100%
-    { 
-       transform: translateY(-10vh) scale(1);
-    }
+.controls div{
+    width: 60px;
+    height: 60px;
+    margin: 20px;
+    background: #fff;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    color: #0f1ef1;
+    box-shadow: 0 10px 20px rgba(255,26,26,0.22);
+    cursor: pointer;
+}
+.controls div:nth-child(2){
+    
 }
