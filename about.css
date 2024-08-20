@@ -130,7 +130,7 @@ nav {
     display: flex;
     justify-content: space-around; 
 }
-nav .brands {
-    box-shadow: 0 5px 10px rgba(255,26,26,0.22);
-}
- 
+
+
+.extraClass{ font-size:30px; }
+
