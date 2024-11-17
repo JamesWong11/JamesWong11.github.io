@@ -112,6 +112,15 @@ body {
     font-size: 19px;
     animation: fadeIn 5s forwards;
 }
+span {
+  font-size: 25px;
+  text-decoration: none;
+  color: black;
+  letter-spacing: 4px;
+  display: block;
+  text-align: justify;
+  margin-left: 20px;
+}
 .fade-in-image {
     opacity: 0;
     animation: fadeIn 5s forwards;
